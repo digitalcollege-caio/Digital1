@@ -13,3 +13,6 @@ body, h1, p{
     display: inline-block;
     font-size: 20px;
 }
+h1{
+    color: white ;
+}
