@@ -1,49 +1,110 @@
 body, h1, p{
     margin: 0;
 }
-.Botao {
-    background-color: #000000; /* RED */
-    border: none;
-    border-radius: 4px;
-    color: white;
-    border: 10px solid #ffffff; /* WHITE */
-    padding: 4px 4px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 26px;
-    position: center;
-    cursor: not-allowed;
+
+li {
+    list-style: none;
 }
-header{
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    width: 100%;
+    height: 3rem;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.titulo {
+    color: whitesmoke;
+}
+
+.divider {
+    width: 100%;
+    height: 3px;
+    background-color: aliceblue;
+    box-shadow: 0 0 1rem whitesmoke;
+}
+
+.imagem {
+    width: 100%;
+    height: auto;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin-bottom: 3rem;
+}
+
+.anuncio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 10px;
+}
+
+.texto {
+    max-width: 60%;
+    text-align: center;
+    margin: 25px;
+}
+
+.botao {
+    background-color: #000000;
+    color: whitesmoke;
+    border: 5px solid #6d6d6d;
+    border-radius: 20px;
+    padding: 8px;
+    font-size: 26px;
+    cursor: pointer;
+    transition: all 0.7s;
+}
+.botao:hover {
+    position: relative;
+    background-color: #c20e0e;
+    transform: scale(1.2);
+}
+.header{
     display: flex;
     width: 100%;
-    justify-content: space-between;
-}
-h1{
-color: black ;
-
-}
-.Botao:hover {
-    background-color: #c20e0e; /* Pastel RED */
-    color: white;
-
+    justify-content: space-around;
 }
 
-nav{
+.navegacao{
     display: flex;
 }
-ul{
+.paginas{
     color: black;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
 
 }
-li{
+.paginas li{
     list-style: none;
     display: flex;
     flex-direction: row;
     padding-right: 20px;
     padding-left: 20px;
+}
+
+.lista { 
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+}
+
+.artistas {
+display: flex;
+
+flex-direction: column;
 }
