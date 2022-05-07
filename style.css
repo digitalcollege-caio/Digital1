@@ -14,9 +14,32 @@ body, h1, p{
     display: inline-block;
     font-size: 20px;
 }
+header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
 h1{
-color: white ;
+color: black ;
+
 }
 .Botao:hover {
 
+}
+nav{
+    display: flex;
+}
+ul{
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+}
+li{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding-right: 20px;
+    padding-left: 20px;
 }
