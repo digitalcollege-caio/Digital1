@@ -21,10 +21,26 @@ header{
 }
 h1{
 color: black ;
-
+}
+.hardrock-jpg{
+    width: 100%;
 }
 .Botao:hover {
 
+}
+.card-section{
+    margin: 0 auto;
+    width: 150px;
+    border: 2px solid black;
+    border-radius: 8px;
+    text-align: center;
+}
+.ironmaiden-jpg{
+    width: 150px;
+    border-radius: 8px 8px 0 0;
+}
+.img-iron{
+    background-color: black;
 }
 nav{
     display: flex;
@@ -34,7 +50,6 @@ ul{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-
 }
 li{
     list-style: none;
@@ -42,4 +57,21 @@ li{
     flex-direction: row;
     padding-right: 20px;
     padding-left: 20px;
+}
+.card-button{
+    border: none;
+    background-color: black;
+    color: red;
+    font-weight: 300;
+    font-size: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.card-button p {
+    font-size: 12px;
+}
+.card-button h3{
+    font-size: 10px;
 }
