@@ -15,9 +15,35 @@ body, h1, p{
     position: center;
     cursor: not-allowed;
 }
+header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+h1{
+color: black ;
+
+}
 .Botao:hover {
     background-color: #c20e0e; /* Pastel RED */
     color: white;
 
 }
 
+nav{
+    display: flex;
+}
+ul{
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+}
+li{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding-right: 20px;
+    padding-left: 20px;
+}
