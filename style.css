@@ -2,18 +2,22 @@ body, h1, p{
     margin: 0;
 }
 .Botao {
-    background-color: #cb0404; /* RED */
+    background-color: #000000; /* RED */
     border: none;
-    border-radius: 12%;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    width: 250px;
+    border-radius: 4px;
     color: white;
-    padding: 15px 32px;
+    border: 10px solid #ffffff; /* WHITE */
+    padding: 4px 4px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 20px;
+    font-size: 26px;
+    position: center;
+    cursor: not-allowed;
 }
 .Botao:hover {
+    background-color: #c20e0e; /* Pastel RED */
+    color: white;
 
 }
+
